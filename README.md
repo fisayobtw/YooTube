@@ -29,4 +29,5 @@
   - web_keylog.txt
 
 ## ▶️ Video Demonstration
-<iframe width="560" height="315" src="https://www.youtube.com/embed/AZnDtH46JVI?si=DUDzCNNrUenhQ_XJ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+[![Watch the demo](https://img.youtube.com/vi/AZnDtH46JVI/0.jpg)](https://www.youtube.com/watch?v=AZnDtH46JVI)
+
